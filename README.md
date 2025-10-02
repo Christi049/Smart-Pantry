@@ -17,7 +17,7 @@ Generates curated meal plans based on your available ingredients, prioritizing i
 - **Base Model:** [`unsloth/Llama-3.2-3B-Instruct-bnb-4bit`](https://huggingface.co/unsloth/Llama-3.2-3B-Instruct-bnb-4bit)  
 - **LoRA Adapter:** [`Christi049/meal-gen-adapter`](https://huggingface.co/Christi049/meal-gen-adapter)  
 
-The adapter is loaded dynamically from Hugging Face, keeping this repo lightweight.
+The LoRA adapter is created from the custom dataset and uploaded to Hugging Face
 
 ---
 
@@ -36,7 +36,8 @@ Recommended Setup:
 
 ## 📋 Sample Input / Output
 
-**INPUT**
+### Sample Input
+```json
 {
   "serving_size": 2,
   "dietary_restrictions": ["Vegan"],
@@ -51,7 +52,7 @@ Recommended Setup:
   ]
 }
 
-**OUTPUT**
+### sample Output
 {
   "meals": {
     "Monday": {
