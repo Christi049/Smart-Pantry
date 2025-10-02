@@ -51,19 +51,30 @@ Recommended Setup:
     {"name": "Rice Flour", "quantity": "300g", "expiry": "2025-10-01"}
   ]
 }
+```
 
-### sample Output
+### Sample Output
+```json
 {
   "meals": {
     "Monday": {
-      "breakfast": {"description_for_model": "Idli with coconut chutney, using half the lentils and half the rice flour.", "display_text": "Idli with Coconut Chutney"},
-      "lunch": {"description_for_model": "Toor Dal with roti, using remaining lentils.", "display_text": "Toor Dal with Roti"},
-      "dinner": {"description_for_model": "Leftover Toor Dal.", "display_text": "Leftover Toor Dal"}
+      "breakfast": {
+        "description_for_model": "Idli with coconut chutney, using half the lentils and half the rice flour.",
+        "display_text": "Idli with Coconut Chutney"
+      },
+      "lunch": {
+        "description_for_model": "Toor Dal with roti, using remaining lentils.",
+        "display_text": "Toor Dal with Roti"
+      },
+      "dinner": {
+        "description_for_model": "Leftover Toor Dal.",
+        "display_text": "Leftover Toor Dal"
+      }
     },
     ...
   },
   "shopping_list": ["Coconut", "Kadala", "Mutton", "Bread", "Vegetables", "Bread"]
 }
-
+```
 
 
