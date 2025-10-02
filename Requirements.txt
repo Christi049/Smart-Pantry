@@ -1,0 +1,20 @@
+# Core Hugging Face libraries
+transformers>=4.35.0
+huggingface_hub>=0.17.4
+trl>=0.4.0
+peft>=0.4.0
+
+# Model acceleration & optimization
+accelerate>=0.21.0
+bitsandbytes>=0.41.0
+
+# Frontend (optional for demo)
+gradio>=3.42.0
+
+# PyTorch
+torch>=2.1.0
+
+# Standard Python utilities (no install needed, included for clarity)
+# json
+# itertools
+# random
