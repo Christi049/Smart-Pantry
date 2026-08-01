@@ -35,76 +35,97 @@ Recommended Setup:
 
 ---
 
-## 📋 Sample Input / Output
+## 📋 Sample Input
 
-### Sample Input
 ```json
 {
-   serving_size": 2,
-   "dietary_restrictions": ["Vegan"],
-   "allergens": ["Nuts"],
-   "ingredients":
-      [{"name": "Lentils (Toor Dal)", "quantity": "250g", "expiry": "2025-09-02"},
-      {"name": "Tofu", "quantity": "200g", "expiry": "2025-09-03"},
-      {"name": "Spinach", "quantity": "1 bunch", "expiry": "2025-09-04"},
-      {"name": "Cabbage", "quantity": "1 medium head", "expiry": "2025-09-07"},
-      {"name": "Potatoes", "quantity": "4 medium", "expiry": "2025-09-10"},
-      {"name": "Rice Flour", "quantity": "300g", "expiry": "2025-10-01"}
-   ]
+  "serving_size": 2,
+  "dietary_restrictions": ["Vegan"],
+  "allergens": ["Nuts"],
+  "ingredients": [
+    {
+      "name": "Lentils (Toor Dal)",
+      "quantity": "250g",
+      "expiry": "2025-09-02"
+    },
+    {
+      "name": "Tofu",
+      "quantity": "200g",
+      "expiry": "2025-09-03"
+    },
+    {
+      "name": "Spinach",
+      "quantity": "1 bunch",
+      "expiry": "2025-09-04"
+    },
+    {
+      "name": "Cabbage",
+      "quantity": "1 medium head",
+      "expiry": "2025-09-07"
+    },
+    {
+      "name": "Potatoes",
+      "quantity": "4 medium",
+      "expiry": "2025-09-10"
+    },
+    {
+      "name": "Rice Flour",
+      "quantity": "300g",
+      "expiry": "2025-10-01"
+    }
+  ]
 }
 ```
 
-### Sample Output
+## Sample Output
 
-```json
-{
-   ### Meal Plan for 2 people, prioritizing ingredients that will expire soon.
-   ### Monday
-   - Breakfast: Upma made with 100g of rice flour, with jaggery syrup (no nuts).
-   - Lunch: Masala Dosa, using 100g of rice flour, with potato masala (using 1 medium potato and some onions from shopping list).
-   - Dinner: Leftover dosa with sambhar (made with store-bought sambhar powder and vegetables from shopping list).
-   
-   ### Tuesday
-   - Breakfast: Puttu, made from 100g of rice flour, with Kadala (made from grated coconut and jaggery, no nuts).
-   - Lunch: Tofu curry with rice, using 100g of tofu and vegetables from shopping list.
-   - Dinner: Leftover Tofu curry with roti (made from 100g of rice flour).
-   
-   ### Wednesday
-   - Breakfast: Upma with vegetables (using the remaining spinach and some onions from shopping list).
-   - Lunch: Spinach and cabbage thoran (Kerala-style stir-fry) using the remaining spinach and half the cabbage, with rice.
-   - Dinner: Leftover thoran with roti.
-   
-   ### Thursday
-   - Breakfast: Rice flour pancakes with syrup.
-   - Lunch: Vegetable Biryani, using the remaining cabbage and potatoes.
-   - Dinner: Leftover Biryani.
-   
-   ### Friday
-   - Breakfast: Toast with jam (from shopping list).
-   - Lunch: Tofu scramble with sautéed cabbage and potatoes (using the remaining tofu and cabbage).
-   - Dinner: Leftover scramble with rice.
-   
-   ### Saturday
-   - Breakfast: Toast with jam.
-   - Lunch: Simple dal with rice.
-   - Dinner: Leftover dal with roti.
-   
-   ### Sunday
-   - Breakfast: Toast with jam.
-   - Lunch: Vegetable curry with rice.
-   - Dinner: Leftover curry with roti.
-   
-   ### Shopping List:
-   - Jaggery
-   - Onions
-   - Sambhar powder
-   - Kadala (coconut)
-   - Roti flour
-   - Vegetable scraps for sambhar
-   - Biryani spices
-   - Biryani ingredients (if not available)
-   - Jam
-   - Toast
-}
+```text
+Meal Plan for 2 People
+Prioritizing ingredients that expire soon.
+
+### Monday
+- Breakfast: Upma made with 100g rice flour and jaggery syrup.
+- Lunch: Masala dosa with potato masala.
+- Dinner: Leftover dosa with sambhar.
+
+### Tuesday
+- Breakfast: Puttu made from rice flour with kadala curry.
+- Lunch: Tofu curry with rice.
+- Dinner: Leftover tofu curry with roti.
+
+### Wednesday
+- Breakfast: Vegetable upma using spinach.
+- Lunch: Spinach and cabbage thoran with rice.
+- Dinner: Leftover thoran with roti.
+
+### Thursday
+- Breakfast: Rice flour pancakes.
+- Lunch: Vegetable biryani using cabbage and potatoes.
+- Dinner: Leftover biryani.
+
+### Friday
+- Breakfast: Toast with jam.
+- Lunch: Tofu scramble with cabbage and potatoes.
+- Dinner: Leftover scramble with rice.
+
+### Saturday
+- Breakfast: Toast with jam.
+- Lunch: Simple dal with rice.
+- Dinner: Leftover dal with roti.
+
+### Sunday
+- Breakfast: Toast with jam.
+- Lunch: Vegetable curry with rice.
+- Dinner: Leftover curry with roti.
+
+Shopping List:
+- Jaggery
+- Onions
+- Sambhar powder
+- Coconut
+- Roti flour
+- Biryani spices
+- Jam
+- Bread
 ```
 
