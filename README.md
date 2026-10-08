@@ -13,7 +13,7 @@ Generates curated meal plans based on your available ingredients, prioritizing i
 
 ---
 
-## 🧠 Model & Adapter
+## Model & Adapter
 - **Base Model:** [`unsloth/Llama-3.2-3B-Instruct-bnb-4bit`](https://huggingface.co/unsloth/Llama-3.2-3B-Instruct-bnb-4bit)  
 - **LoRA Adapter:** [`Christi049/meal-gen-adapter`](https://huggingface.co/Christi049/meal-gen-adapter)
 - **Dataset:** [`Christi049/meal-gen/Dataset.json`](https://huggingface.co/datasets/Christi049/meal-gen/blob/main/Dataset.json)
@@ -22,7 +22,7 @@ The LoRA adapter is created from the custom dataset and uploaded to Hugging Face
 
 ---
 
-## ⚡ Usage
+## Usage
 This project requires GPU memory and a compatible runtime (Colab or LM Studio) to run the model. Cloning the repo alone will not allow local CPU-only execution.
 Recommended Setup:
 1. Open the Colab notebook:
@@ -35,7 +35,7 @@ Recommended Setup:
 
 ---
 
-## 📋 Sample Input
+## Sample Input
 
 ```json
 {
