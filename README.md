@@ -26,7 +26,7 @@ The LoRA adapter is created from the custom dataset and uploaded to Hugging Face
 This project requires GPU memory and a compatible runtime (Colab or LM Studio) to run the model. Cloning the repo alone will not allow local CPU-only execution.
 Recommended Setup:
 1. Open the Colab notebook:
-   [![Open In Colab](https://colab.research.google.com/drive/1Nhj73-bAPuXV2ww77s_h5P_b7cNcr0fn?usp=sharing)
+   [![Open In Colab](https://colab.research.google.com/drive/1Nhj73-bAPuXV2ww77s_h5P_b7cNcr0fn?usp=sharing)]
 2. Upload the dataset(download from provided link) file when prompted. 
 3. Scroll to the bottom of the notebook where the input cell is provided. Modify the input JSON as needed to reflect your serving size, dietary restrictions, allergens, and ingredients.
 4. Run the input cell to generate your 7-day meal plan, prioritizing ingredients that will expire soon. The output includes both:
