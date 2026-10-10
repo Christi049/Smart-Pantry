@@ -27,7 +27,7 @@ This project requires GPU memory and a compatible runtime (Colab or LM Studio) t
 Recommended Setup:
 1. Open the Colab notebook:
    [![Open In Colab](https://colab.research.google.com/drive/1Nhj73-bAPuXV2ww77s_h5P_b7cNcr0fn?usp=sharing)]
-2. Upload the dataset(download from provided link) file when prompted. 
+2. Upload the dataset(download from provided link). 
 3. Scroll to the bottom of the notebook where the input cell is provided. Modify the input JSON as needed to reflect your serving size, dietary restrictions, allergens, and ingredients.
 4. Run the input cell to generate your 7-day meal plan, prioritizing ingredients that will expire soon. The output includes both:
   display_text for human-readable meals
